@@ -39,6 +39,10 @@ header a {
 .content-1 {
     display: flex;
     align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+
 }
 
 #image-placeholder {
