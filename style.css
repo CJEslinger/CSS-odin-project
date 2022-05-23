@@ -50,6 +50,13 @@ p {
     justify-content: space-between;
     background-color: #1f2937;
     gap: 32px;
+
+}
+
+.container-1 {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
 }
 
 #image-placeholder {
@@ -72,4 +79,14 @@ p {
 .content-1 p, .header a{
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.container-1 button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-weight: bolder;
+    padding: 8px 24px 8px 24px;
+    border: none;
+    align-self: flex-start;
 }
