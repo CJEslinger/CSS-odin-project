@@ -37,7 +37,8 @@ header a {
 }
 
 .content-1 {
-
+    display: flex;
+    align-items: center;
 }
 
 #image-placeholder {
