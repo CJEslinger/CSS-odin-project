@@ -13,6 +13,7 @@ body {
     /*could do whitespace no wrap to not
     have text collapse
     */
+    white-space: nowrap;
 }
 
 ul {
