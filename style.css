@@ -8,12 +8,20 @@ body {
     color: #ffffff;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 100px 8px 100px;
+    padding: 16px 100px 16px 100px;
     gap: 16px;
     /*could do whitespace no wrap to not
     have text collapse
     */
     white-space: nowrap;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 .header ul {
@@ -38,11 +46,10 @@ body {
 .content-1 {
     display: flex;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 100px;
     justify-content: space-between;
     background-color: #1f2937;
-
+    gap: 32px;
 }
 
 #image-placeholder {
