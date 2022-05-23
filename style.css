@@ -55,3 +55,9 @@ header a {
     align-items: center;
     flex-shrink: 0;
 }
+
+.content-1 h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
