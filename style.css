@@ -16,7 +16,7 @@ body {
     white-space: nowrap;
 }
 
-header ul {
+.header ul {
     display: flex;
     list-style: none;
     padding: 0;
@@ -24,14 +24,14 @@ header ul {
     gap: 16px;
 }
 
-header h1 {
+.header h1 {
     padding: 0;
     margin: 0;
     font-size: 24px;
     color: #f9faf8;
 }
 
-header a {
+.header a {
     text-decoration: none;
     color: inherit;
 }
@@ -42,6 +42,7 @@ header a {
     padding-left: 100px;
     padding-right: 100px;
     justify-content: space-between;
+    background-color: #1f2937;
 
 }
 
