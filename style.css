@@ -16,7 +16,7 @@ body {
     white-space: nowrap;
 }
 
-ul {
+header ul {
     display: flex;
     list-style: none;
     padding: 0;
@@ -24,14 +24,15 @@ ul {
     gap: 16px;
 }
 
-h1 {
+header h1 {
     padding: 0;
     margin: 0;
     font-size: 24px;
     color: #f9faf8;
 }
 
-a {
+header a {
     text-decoration: none;
     color: inherit;
 }
+
