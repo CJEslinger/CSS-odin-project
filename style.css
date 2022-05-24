@@ -92,7 +92,35 @@ p {
     align-self: flex-start;
 }
 
-.content-2 .container-1 .image-placeholder {
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.content-2 h1 {
+    margin-bottom: 32px;
+}
+
+.content-2 .container-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.content-2 .container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: auto;
+    gap: 16px;
+}
+
+.content-2 .container-2 .image-placeholder {
     width: 100px;
     height: 100px;
     border: 4px solid #3882f6;
