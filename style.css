@@ -103,6 +103,9 @@ p {
 
 .content-2 h1 {
     margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 .content-2 .container-1 {
@@ -114,15 +117,16 @@ p {
 .content-2 .container-2 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100px;
+    width: 150px;
     height: auto;
-    gap: 16px;
+    gap: 8px;
+    color: #1f2937;
+    text-align: center;
 }
 
 .content-2 .container-2 .image-placeholder {
-    width: 100px;
-    height: 100px;
+    width: inherit;
+    height: 150px;
     border: 4px solid #3882f6;
     border-radius: 16px;
 }
